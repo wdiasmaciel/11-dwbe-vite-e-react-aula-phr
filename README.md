@@ -36,7 +36,7 @@ Ao apresentar a mensagem abaixo, pressione a tecla `y`:
 
 ```text
 Need to install the following packages:
-create-vite@9.2.1
+create-vite@9.3.4
 Ok to proceed? (y) 
 ```
 
