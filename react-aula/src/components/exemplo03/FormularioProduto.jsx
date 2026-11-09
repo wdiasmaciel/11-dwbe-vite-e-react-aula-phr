@@ -10,6 +10,8 @@ function FormularioProduto({ voltar }) {
 
     return (
         <div>
+            <h1>Exemplo 03</h1>
+            
             <button className="botao" type="button" onClick={voltar}>
                 Voltar para App
             </button>
@@ -41,7 +43,7 @@ function FormularioProduto({ voltar }) {
                     value={estoque}
                     onChange={(e) => setEstoque(e.target.value)}
                 />
-                <br/>
+                <br />
                 <textarea
                     rows="5"
                     value={descricao}
