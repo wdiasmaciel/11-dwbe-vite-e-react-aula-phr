@@ -26,7 +26,7 @@ function FormularioProduto({ voltar }) {
                     onChange={(e) => setNome(e.target.value)}
                 />
                 <select value={categoria} onChange={(e) => setCategoria(e.target.value)}>
-                    <option value="" selected>Selecione</option>
+                    <option value="">Selecione</option>
                     <option value="Informática">Informática</option>
                     <option value="Periféricos">Periféricos</option>
                     <option value="Monitores">Monitores</option>
