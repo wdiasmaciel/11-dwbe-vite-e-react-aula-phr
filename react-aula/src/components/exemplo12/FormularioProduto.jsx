@@ -5,7 +5,7 @@ function FormularioProduto({ voltar }) {
     function salvar(e) {
         e.preventDefault();
 
-        if (nome === "" || categoria === "" || preco === "" || estoque === "") {
+        if (nome === "" || categoria === "" || preco === "" || estoque === "" || descricao === "") {
             alert("Preencha todos os campos.");
             return;
         }
