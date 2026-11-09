@@ -5,6 +5,7 @@ function FormularioProduto({ voltar }) {
     function salvar(e) {
         e.preventDefault();
         alert("Produto cadastrado!")
+        
         console.log("Nome: " + nome);
         console.log("Categoria: " + categoria);
         console.log("Preço: " + preco);
