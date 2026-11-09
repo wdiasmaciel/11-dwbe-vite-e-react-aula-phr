@@ -1,6 +1,7 @@
-import './App.css'
 import { useState } from 'react'
 import FormularioProduto01 from './components/exemplo01/FormularioProduto.jsx'
+import FormularioProduto02 from './components/exemplo02/FormularioProduto.jsx'
+import './App.css'
 
 function App() {
   const [exemplo, setExemplo] = useState('inicio')
@@ -9,11 +10,18 @@ function App() {
     return <FormularioProduto01 voltar={() => setExemplo('inicio')} />
   }
 
+  if (exemplo === 'exemplo02') {
+    return <FormularioProduto02 voltar={() => setExemplo('inicio')} />
+  }
+
   return (
     <>
       <h1>Prática 11</h1>
       <button className="botao" type="button" onClick={() => setExemplo('exemplo01')}>
         Exemplo 01
+      </button>
+      <button className="botao" type="button" onClick={() => setExemplo('exemplo02')}>
+        Exemplo 02
       </button>
     </>
   )
