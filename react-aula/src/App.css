@@ -26,3 +26,8 @@ textarea {
   margin-top: 0.5rem;
   width: 98%;
 }
+
+input[type="radio"] {
+  width: auto;
+  margin: 0.5rem;
+}
