@@ -1,0 +1,21 @@
+.formulario{
+	width:500px;
+	margin:auto;
+	padding:20px;
+	background:white;
+	border-radius:10px;
+	box-shadow:0015pxrgba(0,0,0,.2);
+}
+
+.formularioinput,
+	.formulariotextarea,
+	.formularioselect{
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+}
+
+button{
+	padding:10px20px;
+	cursor:pointer;
+}
