@@ -113,7 +113,7 @@ function FormularioProduto({ voltar }) {
                 </label>
 
                 <br /><br />
-                <button className="botao">
+                <button className="botao-cadastrar">
                     Cadastrar
                 </button>
             </form>

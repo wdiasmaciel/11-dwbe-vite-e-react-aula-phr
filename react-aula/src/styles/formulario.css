@@ -17,17 +17,17 @@
 }
 
 /*
- * As regras de App.css são globais: o seletor .botao aplica-se 
- * a qualquer elemento com className="botao", inclusive aos 
- * botões do exemplo 13. 
- * Importar formulario.css no componente do exemplo 13 não 
- * isola seus estilos.
- * Além disso, esse arquivo também define .botao, mas só altera
- * a cor de fundo. As propriedades que ele não redefine, como 
- * cor do texto e borda, continuam vindo de App.css.
- * Para evitar essa herança, use seletores mais específicos 
- * para o exemplo 13.
+ * As regras de App.css são globais: os seletores .botao e .botao-cadastrar 
+ * aplicam-se a qualquer elemento com className="botao" ou 
+ * className="botao-cadastrar", inclusive aos botões do exemplo 13. 
+ * 
+ * Importar formulario.css no componente do exemplo 13 não
+ * isola seus estilos. Esse arquivo só altera a cor de fundo. As propriedades 
+ * que ele não redefine, como cor do texto e borda, continuam vindo de App.css.
+ *
+ * Para evitar essa herança, use seletores mais específicos para o componente 
+ * do exemplo 13.
  */
-.botao{
+.botao-cadastrar{
 	background-color: red;
 }
