@@ -1,7 +1,5 @@
 # 11-dwbe-vite-e-react-aula-phr
 
-# 06-dwbe-vite-e-react-aula-phr
-
 Material:
 
 https://app.notion.com/p/Cap-tulo-8-Formul-rios-e-Componentes-Controlados-39644ced3625802384b7f6e606fd46bb
