@@ -33,7 +33,7 @@ function FormularioProduto({ voltar }) {
 
     return (
         <div>
-            <h1>Exemplo 08</h1>
+            <h1>Exemplo 09</h1>
 
             <button className="botao" type="button" onClick={voltar}>
                 Voltar para App
