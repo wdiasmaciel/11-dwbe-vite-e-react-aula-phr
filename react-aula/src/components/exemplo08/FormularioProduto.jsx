@@ -4,7 +4,6 @@ import "../../App.css";
 function FormularioProduto({ voltar }) {
     function salvar(e) {
         e.preventDefault();
-        alert("Produto cadastrado!")
         
         console.log("Nome: " + nome);
         console.log("Categoria: " + categoria);
@@ -13,6 +12,8 @@ function FormularioProduto({ voltar }) {
         console.log("Descrição: " + descricao);
         console.log("Estado: " + estado);
         console.log("Ativo: " + ativo);
+        
+        alert("Produto cadastrado!")
     }
 
     const [nome, setNome] = useState("");
