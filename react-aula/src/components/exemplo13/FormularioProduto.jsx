@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/formulario.css";
+import "../../styles/formulario.css";
 
 function FormularioProduto({ voltar }) {
     function salvar(e) {
