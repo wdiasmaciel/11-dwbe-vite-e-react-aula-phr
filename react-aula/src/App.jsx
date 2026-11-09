@@ -6,6 +6,8 @@ import FormularioProduto04 from './components/exemplo04/FormularioProduto.jsx'
 import FormularioProduto05 from './components/exemplo05/FormularioProduto.jsx'
 import FormularioProduto06 from './components/exemplo06/FormularioProduto.jsx'
 import FormularioProduto07 from './components/exemplo07/FormularioProduto.jsx'
+import FormularioProduto08 from './components/exemplo08/FormularioProduto.jsx'
+
 import './App.css'
 
 function App() {
@@ -39,6 +41,10 @@ function App() {
     return <FormularioProduto07 voltar={() => setExemplo('inicio')} />
   }
 
+  if (exemplo === 'exemplo08') {
+    return <FormularioProduto08 voltar={() => setExemplo('inicio')} />
+  }
+
   return (
     <>
       <h1>Prática 11</h1>
@@ -63,8 +69,9 @@ function App() {
       <button className="botao" type="button" onClick={() => setExemplo('exemplo07')}>
         Exemplo 07
       </button>
-      
-      
+      <button className="botao" type="button" onClick={() => setExemplo('exemplo08')}>
+        Exemplo 08
+      </button>
     </>
   )
 }

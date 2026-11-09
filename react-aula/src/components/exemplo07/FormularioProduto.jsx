@@ -1,19 +1,12 @@
 import { useState } from "react";
 import "../../App.css";
 
-function FormularioProduto({ voltar }) {
-    function salvar(e) {
-        e.preventDefault();
-        alert("Produto cadastrado!")
-        console.log("Nome: " + nome);
-        console.log("Categoria: " + categoria);
-        console.log("Preço: " + preco);
-        console.log("Estoque: " + estoque);
-        console.log("Descrição: " + descricao);
-        console.log("Estado: " + estado);
-        console.log("Ativo: " + ativo);
-    }
+function salvar(e) {
+    e.preventDefault();
+    alert("Produto cadastrado!")
+}
 
+function FormularioProduto({ voltar }) {
     const [nome, setNome] = useState("");
     const [categoria, setCategoria] = useState("");
     const [preco, setPreco] = useState("");
@@ -25,7 +18,7 @@ function FormularioProduto({ voltar }) {
     return (
         <div>
             <h1>Exemplo 07</h1>
-
+            
             <button className="botao" type="button" onClick={voltar}>
                 Voltar para App
             </button>
